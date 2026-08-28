@@ -1,0 +1,494 @@
+<!doctype html>
+<html lang="id">
+  <head>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Caveat:wght@600&family=Plus+Jakarta+Sans:wght@400;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MotoRent Batam - Sewa Motor Terbaik di Batam</title>
+    <link rel="stylesheet" href="style.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+  </head>
+
+  <body>
+    <header class="navbar">
+      
+      <div class="logo">
+        <div class="logo-icon">
+          <i class="fa-solid fa-motorcycle"></i>
+        </div>
+        <div class="logo-text">
+          <h2>Moto<span>Rent</span></h2>
+          <p>SEWA MOTOR BATAM</p>
+        </div>
+      </div>
+
+      
+      <button
+        class="menu-toggle"
+        id="menu-toggle"
+        aria-label="Toggle Navigation"
+      >
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
+      
+      <div class="right-nav">
+        <nav class="nav-menu">
+          <ul>
+            <li><a href="#beranda" class="active">Beranda</a></li>
+            <li><a href="#motor">Motor</a></li>
+            <li><a href="#cara-sewa">Cara Sewa</a></li>
+            <li><a href="#">Tentang Kami</a></li>
+            <li><a href="">Kontak</a></li>
+          </ul>
+        </nav>
+        <a href="#" class="btn-wa">Hubungi Kami</a>
+      </div>
+    </header>
+
+    
+    <section id="beranda" class="hero">
+      <div class="left-nav"></div>F
+      <div class="hero-content">
+        <span class="tagline">RENTAL MOTOR DI BATAM</span>
+        <h1>Jelajahi Setiap <span>Sudut Batam</span> dengan Motor Terbaik</h1>
+        <p>
+          Mudah, cepat, aman dan harga bersahabat. Sewa motor untuk liburan,
+          kerja, atau kebutuhan harian di Batam. Kami siap menemani
+          perjalananmu!
+        </p>
+        <div class="badges">
+          <span><i class="fas fa-check-circle"></i> Motor Terawat</span>
+          <span><i class="far fa-clock"></i> Proses Cepat</span>
+          <span><i class="fas fa-tag"></i> Harga Terjangkau</span>
+        </div>
+      </div>
+
+      
+      <div class="search-box">
+        <div class="input-group">
+          <label for="lokasi">Lokasi Pickup</label>
+          <select id="lokasi" name="lokasi">
+            <option value="">Pilih Lokasi (Pelabuhan/Bandara/Hotel)</option>
+          </select>
+        </div>
+        <div class="input-group">
+          <label for="tanggal">Tanggal Sewa</label>
+          <input type="date" id="tanggal" name="tanggal" />
+        </div>
+        <div class="input-group">
+          <label for="durasi">Durasi</label>
+          <select id="durasi" name="durasi">
+            <option value="">Pilih Durasi (Hari)</option>
+          </select>
+        </div>
+        <button class="btn-search">
+          <i class="fas fa-search"></i> Cari Motor
+        </button>
+      </div>
+    </section>
+
+    
+    <section id="motor" class="catalog">
+      <div class="catalog-container">
+        
+        <div class="section-header">
+          <span class="sub-title">— Motor Populer</span>
+          <h2>Pilihan Motor Terbaik untuk Perjalananmu</h2>
+          <p>
+            Kami menyediakan berbagai pilihan motor dengan kondisi prima dan
+            harga bersaing.
+          </p>
+          <a href="#" class="btn-yellow-header">Lihat Semua Motor →</a>
+        </div>
+
+        
+        <div class="card-grid">
+          
+          <div class="card">
+            <span class="badge-label badge-green">Paling Favorit</span>
+            <img
+              src="aset/2025-honda-beat-street-2-removebg-preview.png"
+              alt="Honda Beat"
+            />
+            <div class="card-info">
+              <h3>Honda Beat</h3>
+              <div class="specs">
+                <p>📍 110cc • Matic</p>
+                <p>👤 2 Orang</p>
+              </div>
+              <div class="card-footer">
+                <div class="price">Rp 70.000 <span>/ hari</span></div>
+                <a href="#" class="btn-card">Sewa Sekarang →</a>
+              </div>
+            </div>
+          </div>
+
+          
+          <div class="card">
+            <span class="badge-label">Best Seller</span>
+            <img
+              src="aset/028707021ef78cc52aaa48dd412763aa-removebg-preview.png"
+              alt="Honda Vario 125"
+            />
+            <div class="card-info">
+              <h3>Honda Vario 125</h3>
+              <div class="specs">
+                <p>📍 125cc • Matic</p>
+                <p>👤 2 Orang</p>
+              </div>
+              <div class="card-footer">
+                <div class="price">Rp 90.000 <span>/ hari</span></div>
+                <a href="#" class="btn-card">Sewa Sekarang →</a>
+              </div>
+            </div>
+          </div>
+
+          
+          <div class="card">
+            <img
+              src="aset/Warna-Baru-Yamaha-Nmax-155-2023-Metallic-Blue-removebg-preview.png"
+              alt="Yamaha NMAX"
+            />
+
+            <div class="card-info">
+              <h3>Yamaha NMAX</h3>
+              <div class="specs">
+                <p>📍 155cc • Matic</p>
+                <p>👤 2 Orang</p>
+              </div>
+              <div class="card-footer">
+                <div class="price">Rp 150.000 <span>/ hari</span></div>
+                <a href="#" class="btn-card">Sewa Sekarang →</a>
+              </div>
+            </div>
+          </div>
+
+          
+          <div class="card">
+            <div class="card-img-container">
+              <img
+                src="aset/749290c176af9295ae7c24d31503d3b2-removebg-preview.png"
+                alt="Honda Scoopy"
+              />
+            </div>
+            <div class="card-info">
+              <h3>Honda Scoopy</h3>
+              <div class="specs">
+                <p>📍 110cc • Matic</p>
+                <p>👤 2 Orang</p>
+              </div>
+              <div class="card-footer">
+                <div class="price">Rp 80.000 <span>/ hari</span></div>
+                <a href="#" class="btn-card">Sewa Sekarang →</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    
+    <section id="tentang" class="features">
+      <div class="section-header">
+        <h2>Kenapa Memilih Kami?</h2>
+        <p>
+          Kami berkomitmen memberikan pelayanan terbaik untuk pengalaman sewa
+          motor yang aman dan nyaman.
+        </p>
+        <a href="#" class="btn-secondary">Tentang Kami →</a>
+      </div>
+      <div class="features-grid">
+        <div class="feature-item">
+          <i class="fas fa-shield-alt"></i>
+          <h4>Motor Terawat</h4>
+          <p>Semua unit selalu dalam kondisi prima.</p>
+        </div>
+        <div class="feature-item">
+          <i class="fas fa-money-bill-wave"></i>
+          <h4>Harga Transparan</h4>
+          <p>Tanpa biaya tersembunyi, semua jelas di awal.</p>
+        </div>
+        <div class="feature-item">
+          <i class="fas fa-bolt"></i>
+          <h4>Proses Cepat</h4>
+          <p>Cukup KTP, langsung bisa jalan.</p>
+        </div>
+        <div class="feature-item">
+          <i class="fas fa-headset"></i>
+          <h4>Layanan 24 Jam</h4>
+          <p>Siap membantu kapan saja.</p>
+        </div>
+      </div>
+    </section>
+
+    
+    <section id="cara-sewa" class="how-to-rent">
+      <div class="section-header">
+        <span class="sub-title">Cara Sewa Motor</span>
+        <h2>Mudah & Cepat</h2>
+        <p>Hanya dalam beberapa langkah, motor impianmu sudah bisa dibawa.</p>
+        <a href="#" class="btn-secondary">Tentang Kami →</a>
+      </div>
+      <div class="steps-grid">
+        <div class="step-item">
+          <div class="step-icon">1</div>
+          <i class="fas fa-calendar-alt"></i>
+          <h4>Pilih Motor & Tanggal</h4>
+          <p>Tentukan motor yang kamu inginkan dan pilih tanggal sewa.</p>
+        </div>
+        <div class="step-item">
+          <div class="step-icon">2</div>
+          <i class="fas fa-id-card"></i>
+          <h4>Isi Data Diri</h4>
+          <p>Lengkapi data diri dan unggah KTP (foto).</p>
+        </div>
+        <div class="step-item">
+          <div class="step-icon">3</div>
+          <i class="fab fa-whatsapp"></i>
+          <h4>Konfirmasi via WhatsApp</h4>
+          <p>Tim kami akan memproses pesananmu dengan cepat.</p>
+        </div>
+        <div class="step-item">
+          <div class="step-icon">4</div>
+          <i class="fas fa-motorcycle"></i>
+          <h4>Ambil Motor</h4>
+          <p>Datang ke lokasi atau kami antar ke tempat kamu.</p>
+        </div>
+      </div>
+    </section>
+
+    
+    <section class="testimonials-section">
+      <div class="testimonials-container">
+        
+        <div class="testimonials-header">
+          <div class="sub-title">
+            <span class="yellow-bar"></span>
+            <span>Testimoni Pelanggan</span>
+          </div>
+          <h2>Apa Kata Mereka?</h2>
+          <p>
+            Terima kasih atas kepercayaan dan ulasan positif dari pelanggan
+            setia kami.
+          </p>
+          <div class="nav-buttons">
+  <button type="button" class="nav-btn" aria-label="Sebelumnya">
+    <i class="fas fa-chevron-left"></i>
+  </button>
+  <button type="button" class="nav-btn" aria-label="Berikutnya">
+    <i class="fas fa-chevron-right"></i>
+  </button>
+</div>
+        </div>
+
+        
+        <div class="testimonials-grid">
+          
+          <div class="testimonial-card">
+            <div class="card-header">
+              <img
+                src="https://i.pravatar.cc/100?img=12"
+                alt="Andi Pratama"
+                class="avatar"
+              />
+              <div class="user-info">
+                <h3>Andi Pratama</h3>
+                <div class="stars">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                </div>
+              </div>
+            </div>
+            <p class="quote">
+              "Motornya masih baru dan bersih. Prosesnya juga cepat. Sangat puas
+              sewa di sini!"
+            </p>
+            <div class="location">
+              <i class="fas fa-map-marker-alt"></i>
+              <span>Bali</span>
+            </div>
+          </div>
+
+          
+          <div class="testimonial-card">
+            <div class="card-header">
+              <img
+                src="https://i.pravatar.cc/100?img=47"
+                alt="Sari Dewi"
+                class="avatar"
+              />
+              <div class="user-info">
+                <h3>Sari Dewi</h3>
+                <div class="stars">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                </div>
+              </div>
+            </div>
+            <p class="quote">
+              "Pelayanan ramah, harga terjangkau, motor enak dipakai. Next time
+              pasti sewa lagi!"
+            </p>
+            <div class="location">
+              <i class="fas fa-map-marker-alt"></i>
+              <span>Kuta, Bali</span>
+            </div>
+          </div>
+
+          
+          <div class="testimonial-card">
+            <div class="card-header">
+              <img
+                src="https://i.pravatar.cc/100?img=33"
+                alt="Budi Santoso"
+                class="avatar"
+              />
+              <div class="user-info">
+                <h3>Budi Santoso</h3>
+                <div class="stars">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                </div>
+              </div>
+            </div>
+            <p class="quote">
+              "Rekomendasi banget! Motor lancar, staffnya profesional. Terima
+              kasih MotoRent."
+            </p>
+            <div class="location">
+              <i class="fas fa-map-marker-alt"></i>
+              <span>Seminyak, Bali</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="order-cta">
+      
+      <div class="cta-banner">
+        <img
+          src="https://images.unsplash.com/photo-1558981806-ec527fa84c39?auto=format&fit=crop&w=600&q=80"
+          alt="Motor Banner"
+        />
+        <span class="banner-badge">Butuh Motor Sekarang?</span>
+      </div>
+
+      
+      <div class="cta-text">
+        <h3>Pesan Sekarang Juga!</h3>
+        <p>
+          Hubungi kami melalui WhatsApp untuk pemesanan lebih cepat dan mudah.
+        </p>
+      </div>
+
+      
+      <div class="cta-buttons">
+        <a
+          href="https://wa.me/628123456789"
+          class="btn-whatsapp"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <i class="fab fa-whatsapp"></i> Chat WhatsApp
+        </a>
+        <div class="phone">
+          <div class="phone-icon"><i class="fas fa-phone-alt"></i></div>
+          <div class="phone-text">
+            <strong>+62 812 3456 7890</strong>
+            <span>Tersedia 24 Jam</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    
+    <footer>
+      <div class="footer-content">
+        <div class="footer-logo">
+          <h2>
+            <i class="fas fa-motorcycle logo-icon"></i> Moto<span>Rent</span>
+          </h2>
+          <p>Sewa Motor, Jelajahi Tanpa Batas</p>
+        </div>
+
+        <div class="footer-links">
+          <h4>Menu</h4>
+          <ul>
+            <li><a href="#beranda">Beranda</a></li>
+            <li><a href="#motor">Motor</a></li>
+            <li><a href="#cara-sewa">Cara Sewa</a></li>
+            <li><a href="#tentang">Tentang Kami</a></li>
+            <li><a href="#kontak">Kontak</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-contact">
+          <h4>Informasi</h4>
+          <ul>
+            <li>
+              <i class="fas fa-map-marker-alt"></i> Jl. Pantai Nagoya No. 88,
+              Batam
+            </li>
+            <li><i class="fas fa-phone-alt"></i> +62 812 3456 7890</li>
+            <li><i class="fas fa-envelope"></i> info@motorent.id</li>
+            <li><i class="fas fa-clock"></i> Buka setiap hari 07.00 - 23.00</li>
+          </ul>
+        </div>
+
+        <div class="footer-social">
+          <h4>Ikuti Kami</h4>
+          <div class="social-icons">
+            <div class="social-icons">
+  <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+  <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+  <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+  <a href="#" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+</div>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <div class="bottom-content">
+          <p>&copy; 2026 MotoRent Batam. Semua hak dilindungi.</p>
+          <div class="bottom-links">
+            <a href="#">Sewa Motor di Batam</a> •
+            <a href="#">Aman • Cepat • Terpercaya</a>
+          </div>
+        </div>
+        
+    <a href="#" class="scroll-top" aria-label="Kembali ke atas">
+      <i class="fas fa-chevron-up"></i>
+    </a>
+      </div>
+    </footer>
+    <script src="main.js"></script>
+  </body>
+</html>
