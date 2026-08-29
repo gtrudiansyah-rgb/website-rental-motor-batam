@@ -612,16 +612,16 @@ body {
   justify-content: space-between;
   gap: 40px;
 }
-/* 1. BAGIAN KIRI (HEADER & TOMBOL) */
+
 .features .section-header {
   flex: 1;
   max-width: 380px;
   text-align: left;
 }
 
-/* Garis aksen kuning kecil di atas judul */
+
 .features .section-header::before {
-  content: "";
+  
   display: block;
   width: 35px;
   height: 4px;
