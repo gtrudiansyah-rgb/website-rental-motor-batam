@@ -360,7 +360,7 @@ body {
 }
 
 .badge-green {
-  background: #16a34a;
+  background: #15803d;
   color: #ffffff;
 }
 
@@ -749,7 +749,7 @@ body {
   gap: 8px;
   font-size: 14px;
   font-weight: 700;
-  color: #1e293b;
+  color:#374151;
 }
 
 .sub-title::before {
