@@ -1443,7 +1443,7 @@ footer {
 }
 
 .footer-logo p {
-  color: #8a9099;
+  color: #ffffff;
   font-size: 0.85rem;
 }
 
@@ -1467,8 +1467,8 @@ footer {
 }
 
 .footer-links ul li a {
-  color: #8a9099;
-  text-decoration: none;
+  color: #ffffff;
+  text-decoration: underline;
   font-size: 0.85rem;
   transition: color 0.2s;
 }
@@ -1478,7 +1478,7 @@ footer {
 }
 
 .footer-contact ul li {
-  color: #8a9099;
+  color: #ffffff;
   font-size: 0.85rem;
   margin-bottom: 10px;
   display: flex;
@@ -1488,7 +1488,8 @@ footer {
 
 .footer-contact ul li i {
   width: 16px;
-  color: #8a9099;
+  color: #ffffff;
+  
 }
 
 /* Social Media Icons */
@@ -1526,16 +1527,17 @@ footer {
   padding: 20px 0;
   border-top: 1px solid rgba(255, 255, 255, 0.05);
   font-size: 0.8rem;
-  color: #6c727d;
+  color: #ffffff;
+  
 }
 
 .bottom-links a {
-  color: #6c727d;
+  color: #ffffff;
   text-decoration: none;
 }
 
 .bottom-links a:hover {
-  color: #8a9099;
+  color: #f5b800;
 }
 
 .scroll-top {
