@@ -1139,6 +1139,15 @@ footer {
   transition: all 0.3s ease;
 }
 
+.step-item h3,
+.step-item h4 {
+  color: #1f2937; /* Warna teks gelap */
+  font-size: 1.1em;
+  font-weight: 700;
+  margin: 12px 0 8px;
+}
+
+
 /* ==========================================
    MENCEGAH SCROLL SAMPING PADA SEMUA LAYAR
    ========================================== */
