@@ -280,7 +280,7 @@ body {
 }
 
 .section-header .sub-title {
-  color: #facc15;
+  color: #ff6600;
   font-size: 0.9rem;
   font-weight: 700;
   display: block;
@@ -756,7 +756,7 @@ body {
   content: "";
   width: 20px;
   height: 4px;
-  background-color: #ffe203;
+  background-color: #f0d01d;
   border-radius: 2px;
 }
 
